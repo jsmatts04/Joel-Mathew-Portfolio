@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background: white
 }
 
 html {
@@ -282,7 +283,10 @@ section {
 }
 
 .about-pic {
-  border-radius: 2rem;
+  border-radius: 3rem;
+  width: 100rem;
+  height: 18rem;
+  
 }
 
 .arrow {
