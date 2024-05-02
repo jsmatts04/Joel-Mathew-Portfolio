@@ -9,7 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: white
+  background: #B8B8FF;
 }
 
 html {
@@ -17,7 +17,7 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: rgb(74, 74, 74);
 }
 
 /* TRANISTION */
@@ -37,7 +37,10 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  height: 10vh;
+  width: auto;
+  background: #9381FF; /* Dark blue */
+
 }
 
 .nav-links {
@@ -53,10 +56,10 @@ a {
 }
 
 a:hover {
-  color: grey;
+  color: rgb(255, 255, 255);
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: rgb(255, 255, 255);
 }
 
 .logo {
@@ -184,6 +187,7 @@ section {
 
 .section__text p {
   font-weight: 600;
+  color: #1A1423;
 }
 
 .section__text__p1 {
@@ -198,6 +202,7 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+  color: #7F5A83;
 }
 
 #socials-container {
@@ -298,12 +303,13 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
+  border: 0.1rem solid rgb(0, 0, 0);
+  border-color: rgb(0, 0, 0);
   text-align: center;
+  background: linear-gradient(to right, #d0b9f1, #ffffff); /* Gradient from B8B8FF to white */
 }
+
 
 .section-container {
   gap: 4rem;
@@ -423,7 +429,7 @@ article .icon {
 /*FOOTER SECTION*/
 
 footer {
-  height: 26vh;
+  height: 13vh;
   margin: 0 1rem;
 }
 
