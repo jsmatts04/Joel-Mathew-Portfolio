@@ -12,7 +12,6 @@
   #desktop-nav {
     display: none;
   }
-
   #hamburger-nav {
     display: flex;
   }
@@ -35,12 +34,15 @@
     margin: 0 5%;
   }
   .section__pic-container {
-    width: 275px;
-    height: 275px;
+    width: 400px;
+    height: 300px;
     margin: 0 auto 2rem;
   }
   .about-containers {
     margin-top: 0;
+  }
+  .about-pic{
+    justify-content: center !important;
   }
 }
 
@@ -77,6 +79,11 @@
   }
   .logo{
     font-size: 1.5rem;
+  }
+  .about-pic{
+    width: auto;
+    height: 46vw;
+    justify-content: center;
   }
   .nav-links {
     flex-direction: column;
